@@ -4,8 +4,12 @@ public class AtbashCipher {
 
     public static void main(String[] args) {
 
-        System.out.println("Hey!");
 
+    }
+
+
+    private String atbashEncrypt(String s){
+        return s;
     }
 
 }
