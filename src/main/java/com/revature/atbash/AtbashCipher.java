@@ -6,6 +6,7 @@ public class AtbashCipher {
         System.out.println(atbashEncrypt("Hello World!"));
         System.out.println(atbashEncrypt("apple"));
         System.out.println(atbashEncrypt("Apple"));
+        System.out.println(atbashEncrypt("Christmas is the 25th of December"));
     }
 
     private static String atbashEncrypt(String s){
