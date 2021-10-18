@@ -22,7 +22,9 @@
         Notes: 
         Each movement is an integer (whole number). */
 
-console.log(trackRobot(-1, 0, 5, 0));
+console.log(trackRobot(20, 30, 10, 40));
+console.log(trackRobot());
+console.log(trackRobot(-10, 20, 10));
 
 function trackRobot(north, east, south, west){
        let start = [0, 0];
