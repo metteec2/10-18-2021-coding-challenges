@@ -4,11 +4,19 @@ public class AtbashCipher {
 
     public static void main(String[] args) {
 
+        atbashEncrypt("Hello");
+
 
     }
 
 
-    private String atbashEncrypt(String s){
+    private static String atbashEncrypt(String s){
+        //convert string to charArray
+        char[] charArr = s.toCharArray();
+
+        for(char c : charArr){
+
+        }
         return s;
     }
 
